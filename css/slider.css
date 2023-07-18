@@ -1,0 +1,48 @@
+
+
+  .wrapper {
+     margin: 0 20px;
+  }
+
+  .slider-container {
+    overflow: hidden; 
+
+  }
+
+
+  .slider-track{ 
+    display:flex;
+    transition: .5s;
+  }
+
+  .slider-item{
+   
+  }
+
+  .slider-item-container{
+    margin: 10px;
+  }
+ 
+
+  .slider-btn{
+    text-align: center;
+    padding: 20px;
+  }
+
+
+
+
+.btn-img{
+  width: 100%;
+}
+
+  .slider-btn-next,
+  .slider-btn-prev {
+    background: none;
+    border: none;
+    max-width: 200px;
+}
+.slider-btn-next:hover,
+.slider-btn-prev:hover {
+transform: scale(1.07);
+}
