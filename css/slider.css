@@ -10,18 +10,19 @@
 .slider-track {
   display: flex;
   transition: .5s;
+  height: 330px; 
 }
 
 .slider-item-container {
   margin: 10px;
 }
 
-.slider-btn {
-  padding-top: 20px;
+.slider-btn { 
   width: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .btn-img {
@@ -41,4 +42,12 @@
 .slider-btn-next:hover,
 .slider-btn-prev:hover {
   transform: scale(1.07);
+}
+
+
+@media (max-width : 768px) {
+  .slider-btn-next:hover, .slider-btn-prev:hover{
+    transform:none;
+  }
+  
 }
