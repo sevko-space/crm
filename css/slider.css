@@ -9,8 +9,7 @@
 
 .slider-track {
   display: flex;
-  transition: .5s;
-  height: 330px; 
+  transition: .5s; 
 }
 
 .slider-item-container {
